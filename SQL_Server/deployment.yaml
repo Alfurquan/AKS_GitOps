@@ -9,7 +9,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mssql-deployment
-  Namespace: sqlserver
+  namespace: sqlserver
 spec:
   replicas: 1
   selector:
